@@ -7,5 +7,7 @@ WORKDIR /app
 # Install ganache-cli
 RUN npm install -g ganache-cli
 
+
 # Set the deafult command for the image
 CMD ["ganache-cli", "-h", "0.0.0.0"]
+
